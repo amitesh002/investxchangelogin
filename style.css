@@ -1,0 +1,134 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    background-color: black;
+}
+.log{
+    position: absolute;
+width: 197px;
+height: 102px;
+left: 147px;
+top: 117px;
+
+font-family: 'Istok Web';
+font-style: normal;
+font-weight: 400;
+font-size: 70.7524px;
+line-height: 102px;
+
+
+
+color: #FFFFFF;
+
+}
+.box{
+    
+position: absolute;
+width: 1197px;
+height: 766px;
+left: calc(50% - 1197px/2 - 11.5px);
+top: calc(50% - 766px/2 - 29px);
+
+background: #1E1E1E;
+border-radius: 20px;
+}
+.box input[type="text"]{
+    position: absolute;
+    color: white;
+width: 402px;
+height: 45px;
+left: 147px;
+top: 288px;
+text-align: left;
+background: #2B2B2B;
+border-radius: 8px;
+}
+.box input[type="email"]{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 15px 0px 15px 12px;
+color: white;
+
+position: absolute;
+width: 393px;
+height: 16px;
+left: 147px;
+top: 360px;
+
+background: #2B2B2B;
+border-radius: 8px;
+}
+.box input[type="password"]{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px 12px;
+    gap: 10px;
+    color: white;
+    
+    position: absolute;
+    width: 380px;
+    height: 16px;
+    left: 147px;
+    top: 432px;
+    
+    background: #2B2B2B;
+    border-radius: 8px;
+}
+.box input[type="date"]{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 15px 12px;
+gap: 10px;
+color: white;
+
+position: absolute;
+width: 380px;
+height: 16px;
+left: 148px;
+top: 505px;
+
+background: #2B2B2B;
+border-radius: 8px;
+}
+.box input[type="number"]{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px 12px;
+    gap: 10px;
+    color: white;
+    
+    position: absolute;
+    width: 380px;
+    height: 16px;
+    left: 148px;
+    top: 578px;
+    
+background: #2B2B2B;
+border-radius: 8px;
+}
+    
+
+button{
+  
+
+flex: none;
+order: 0;
+flex-grow: 0;
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 401px;
+height: 56.92px;
+left: 148px;
+top: 662.04px;
+
+background: #FFFFFF;
+border-radius: 8px;
+}
